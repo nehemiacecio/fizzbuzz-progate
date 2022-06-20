@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: monospace, sans-serif;
+}
+h1{
+    text-align: center;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px purple solid;
+    padding-bottom: 1rem;
+
+}
+
+form {
+    display: flex;
+
+}
+
