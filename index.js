@@ -27,7 +27,7 @@
 function showInput() {
     let textInput;
     textInput = document.getElementById('input').value
-    if (textInput === 0) {
+    if (textInput == 0) {
         textInput = 'Invalid Input'
     } else if (textInput % 3 === 0 && textInput % 5 !== 0) {
         textInput = 'Fizz!'
